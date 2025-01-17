@@ -294,7 +294,7 @@ export default function Portfolio() {
       </section>
 
       <footer className="py-8 text-center text-gray-400 border-t border-gray-800">
-        <p>{Year} by Gustavo de Sousa Lima</p>
+        <p>&copy; {Year} Desenvolvido por Gustavo de Sousa Lima</p>
       </footer>
     </div>
   )
