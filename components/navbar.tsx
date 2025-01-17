@@ -21,6 +21,11 @@ export function Navbar({ onNavigate }: NavbarProps) {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
+            <motion.p className="text-6xl md:text-8xl font-bold flex justify-center items-center">
+              <span className="bg-clip-text text-xl text-transparent bg-gradient-to-r from-violet-600 via-fuchsia-500 to-orange-500">
+                <a href="https://www.youtube.com/@gusttadev" target='_blank'>gustta.dev</a>
+              </span>
+            </motion.p>
             <div className="flex items-center">
             <Button
               variant="none"
