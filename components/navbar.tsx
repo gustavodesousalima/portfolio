@@ -55,6 +55,15 @@ export function Navbar({ onNavigate }: NavbarProps) {
               {item.label}
               </Button>
             ))}
+            <Button
+              variant="ghost"
+              className="font-sans hover:text-white hover:bg-purple-500/20 text-base"
+              onClick={() => {
+                window.open('https://blog-ruby-ten-93.vercel.app/', '_blank')
+              }}
+            >
+              Blog
+              </Button>
             </div>
             <style jsx>{`
             @media (max-width: 768px) {
@@ -68,7 +77,7 @@ export function Navbar({ onNavigate }: NavbarProps) {
               border-bottom: 1px solid rgba(128, 0, 128, 0.2);
               padding: 1rem;
               width: 100%;
-              height: 40vh;
+              height: 52vh;
               }
             }
             `}</style>

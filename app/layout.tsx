@@ -4,7 +4,10 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Portfólio -  Gustavo',
-  description: 'Created with v0',
+  description: 'Portfólio de Gustavo',
+  icons: {
+    icon: profileImage.src
+  }
 }
 
 export default function RootLayout({
